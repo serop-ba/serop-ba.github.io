@@ -1,1 +1,0 @@
-Repository for creating personal hosted website on github
