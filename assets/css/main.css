@@ -2063,6 +2063,7 @@ input, select, textarea {
 
 		.image.thumb {
 			text-align: center;
+			
 		}
 
 			.image.thumb:after {
@@ -2117,20 +2118,33 @@ input, select, textarea {
 
 		.image.left, .image.right {
 			max-width: 40%;
+			
 		}
 
 			.image.left img, .image.right img {
 				width: 100%;
+
 			}
 
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			
+			
+			
 		}
 
 			.image.fit img {
+				resize: both;
 				width: 100%;
+				height: 200px;
+				
+			
+
+				
+				
+
 			}
 
 		.image.avatar {
@@ -3220,3 +3234,35 @@ input, select, textarea {
 			}
 
 	}
+
+.user {
+	text-align: center;
+	font-size: 60px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.user p {
+	font-size: 16px
+}
+@media only screen and (min-width:550px) {
+    .user {
+        flex-wrap: nowrap;
+        font-size: 75px
+    }
+}
+
+.user-details {
+    text-align: center;
+    margin: 5px auto
+}
+
+.tech {
+    margin: 10px
+}
+.tech h2 {
+	font-size: 16px;
+
+}
