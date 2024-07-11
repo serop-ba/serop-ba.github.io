@@ -1,3 +1,5 @@
-My Personal Portfolio website.
+TODO 
 
-Check it out at: https://serop-ba.github.io/
+1. Change pictures 
+2. add case_studies 
+3. Add testimonies of previous clients 
