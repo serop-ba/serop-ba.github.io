@@ -1,0 +1,29 @@
+.elementor-kit-5{--e-global-color-primary:#2F3349;--e-global-color-secondary:#54595F;--e-global-color-text:#2F3349;--e-global-color-accent:#2F3349;--e-global-color-d98d89d:#E0F1F1;--e-global-color-95aefbd:#E6EBE4;--e-global-color-28073ec:#FEF3DF;--e-global-color-be41700:#D7C49E;--e-global-color-8cbc5a3:#BBCF9B;--e-global-color-cb3f97f:#A5BABB;--e-global-color-3e4aeaf:#171931;--e-global-color-1e6e2db:#FFFFFF;--e-global-color-8e7ee92:#F5F5F5;--e-global-typography-primary-font-family:"Urbanist";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Urbanist";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Figtree";--e-global-typography-text-font-size:18px;--e-global-typography-text-line-height:30px;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;--e-global-typography-ef5b1d7-font-size:16px;--e-global-typography-ef5b1d7-line-height:30px;color:var( --e-global-color-primary );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-5 a{color:var( --e-global-color-primary );}.elementor-kit-5 h1{color:var( --e-global-color-primary );font-family:"Urbanist", Sans-serif;font-size:46px;font-weight:bold;line-height:60px;}.elementor-kit-5 h2{color:var( --e-global-color-primary );font-family:"Urbanist", Sans-serif;font-size:40px;font-weight:bold;line-height:50px;}.elementor-kit-5 h3{color:var( --e-global-color-primary );font-family:"Urbanist", Sans-serif;font-size:22px;font-weight:bold;line-height:26px;}.elementor-kit-5 h4{color:var( --e-global-color-primary );font-family:"Figtree", Sans-serif;font-size:22px;font-weight:bold;}.elementor-kit-5 h5{color:var( --e-global-color-primary );font-family:"Urbanist", Sans-serif;}.elementor-kit-5 h6{font-family:"Urbanist", Sans-serif;}.elementor-kit-5 button,.elementor-kit-5 input[type="button"],.elementor-kit-5 input[type="submit"],.elementor-kit-5 .elementor-button{font-weight:bold;color:var( --e-global-color-1e6e2db );background-color:var( --e-global-color-primary );border-radius:0px 0px 0px 0px;padding:15px 25px 15px 25px;}.elementor-kit-5 input:not([type="button"]):not([type="submit"]),.elementor-kit-5 textarea,.elementor-kit-5 .elementor-field-textual{color:var( --e-global-color-text );background-color:var( --e-global-color-1e6e2db );border-style:solid;border-width:1px 1px 1px 1px;border-color:var( --e-global-color-1e6e2db );border-radius:0px 0px 0px 0px;padding:18px 25px 18px 25px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1170px;}.e-con{--container-max-width:1170px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-5 e-page-transition{background-color:#FFBC7D;}@media(max-width:1366px){.elementor-kit-5{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}}@media(max-width:1024px){.elementor-kit-5{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-5 h1{font-size:36px;line-height:44px;}.elementor-kit-5 h2{font-size:32px;line-height:39px;}.elementor-kit-5 h3{line-height:1.2em;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:880px){.elementor-kit-5 h3{line-height:29px;}}@media(max-width:767px){.elementor-kit-5{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-kit-5 h1{font-size:26px;line-height:1.4em;}.elementor-kit-5 h2{font-size:24px;line-height:30px;}.elementor-kit-5 input:not([type="button"]):not([type="submit"]),.elementor-kit-5 textarea,.elementor-kit-5 .elementor-field-textual{padding:15px 10px 15px 10px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.line {
+ border-bottom: 2px solid #D7C49E;
+}
+
+.pointer {
+    cursor:pointer;
+}
+
+.elementor-icon-list-items .elementor-icon-list-item {
+  position: relative;
+}
+
+.elementor-icon-list-items .elementor-icon-list-icon {
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.elementor-icon-list-items .elementor-icon-list-text {
+  margin-left: 27px;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Figtree';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://bobmeijer.nl/wp-content/uploads/2022/09/Figtree-Regular-1.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
