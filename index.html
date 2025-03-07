@@ -254,38 +254,116 @@ var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":
 				<p>May I add you to the list?</p>
 			</div>
 	</div>
-	<section class="elementor-section elementor-inner-section elementor-element elementor-element-be1a3d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="be1a3d5" data-element_type="section">
-			<div class="elementor-container elementor-column-gap-default">
-		<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-899d1a4" data-id="899d1a4" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-			<div class="elementor-element elementor-element-9e4dca5 elementor-widget elementor-widget-image" data-id="9e4dca5" data-element_type="widget" data-widget_type="image.default">
-	<div class="elementor-widget-container">
-		<img loading="lazy" decoding="async" width="800" height="150" src="./images/mmmlabs.jpeg" class="attachment-full size-full wp-image-824" alt="" srcset="" sizes="(max-width: 800px) 100vw, 800px" />												</div>
-	</div>
+	
+	<!-- Replace the existing logo section with this carousel -->
+	<div class="logo-carousel-container">
+		<div class="logo-carousel">
+			<div class="logo-slide">
+				<img loading="lazy" decoding="async" width="800" height="150" src="./images/mmmlabs.jpeg" class="company-logo" alt="" />
+			</div>
+			<div class="logo-slide">
+				<img loading="lazy" decoding="async" width="800" height="150" src="./images/metro_digital.webp" class="company-logo" alt="" />
+			</div>
+			<div class="logo-slide">
+				<img loading="lazy" decoding="async" width="800" height="150" src="./images/fraunhofer.png" class="company-logo" alt="" />
+			</div>
+			<div class="logo-slide">
+				<img loading="lazy" decoding="async" width="100" height="100" src="./images/kenkou_new.png" class="company-logo" alt="" style="max-width: 100px; width: 100px; height: 100px;"   />
+			</div>
+			<div class="logo-slide">
+				<img loading="lazy" decoding="async" width="400" height="400" src="./images/warmreach.png" class="company-logo" alt="" style="max-width: 50px; width: 50px; height: 50px;" />
+			</div>
+			<!-- Duplicate logos to create seamless looping effect -->
+			<div class="logo-slide">
+				<img loading="lazy" decoding="async" width="800" height="150" src="./images/mmmlabs.jpeg" class="company-logo" alt="" />
+			</div>
+			<div class="logo-slide">
+				<img loading="lazy" decoding="async" width="800" height="150" src="./images/metro_digital.webp" class="company-logo" alt="" />
+			</div>
+			<div class="logo-slide">
+				<img loading="lazy" decoding="async" width="800" height="150" src="./images/fraunhofer.png" class="company-logo" alt="" />
+			</div>
+												
+			</div>
+	
 		</div>
-</div>
-	<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-45adfc5" data-id="45adfc5" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-			<div class="elementor-element elementor-element-a578eb1 elementor-widget elementor-widget-image" data-id="a578eb1" data-element_type="widget" data-widget_type="image.default">
-	<div class="elementor-widget-container">
-		<img loading="lazy" decoding="async" width="800" height="150" src="./images/metro_digital.webp" class="attachment-full size-full wp-image-824" alt="" srcset="" sizes="(max-width: 800px) 100vw, 800px" />												</div>
 	</div>
-		</div>
-</div>
-
-	<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-b0b93bc" data-id="b0b93bc" data-element_type="column">
+	
+	<style>
+		/* Logo Carousel Styles */
+		.logo-carousel-container {
+			width: 100%;
+			overflow: hidden;
+			padding: 20px 0;
+			background: #fff;
+		}
+		
+		.logo-carousel {
+			display: flex;
+			animation: scroll 30s linear infinite;
+			width: fit-content;
+		}
+		
+		@keyframes scroll {
+			0% {
+				transform: translateX(0);
+			}
+			100% {
+				transform: translateX(-50%); /* Move half way as we duplicated the logos */
+			}
+		}
+		
+		.logo-slide {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-width: 200px;
+			margin: 0 30px;
+		}
+		
+		.company-logo {
+			max-height: 80px;
+			max-width: 180px;
+			object-fit: contain;
+		}
+		
+		/* Pause animation on hover */
+		.logo-carousel:hover {
+			animation-play-state: paused;
+		}
+		
+		/* Responsive adjustments */
+		@media (max-width: 768px) {
+			.logo-slide {
+				min-width: 150px;
+				margin: 0 15px;
+			}
+			
+			.company-logo {
+				max-height: 80px;
+				max-width: 140px;
+			}
+		}
+	</style>
+	
+	<!-- Remove or comment out the existing section with logos -->
+	<!-- <section class="elementor-section elementor-inner-section elementor-element elementor-element-be1a3d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="be1a3d5" data-element_type="section">
+		... existing logo grid code ...
+	</section> -->
+	
+	<!-- <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-b0b93bc" data-id="b0b93bc" data-element_type="column">
 <div class="elementor-widget-wrap elementor-element-populated">
 			<div class="elementor-element elementor-element-d0b2779 elementor-widget elementor-widget-image" data-id="d0b2779" data-element_type="widget" data-widget_type="image.default">
 	<div class="elementor-widget-container">
-		<img loading="lazy" decoding="async" width="800" height="150" src="./images/fraunhofer.png" class="attachment-full size-full wp-image-824" alt="" srcset="" sizes="(max-width: 800px) 100vw, 800px" />													</div>
-	</div>
+		<img loading="lazy" decoding="async" width="800" height="150" src="./images/kenkou_new.png" class="attachment-full size-full wp-image-824" alt="" srcset="" sizes="(max-width: 400px) 50vw, 80px" />												</div>
 		</div>
-</div>
-<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-90c9dd3" data-id="90c9dd3" data-element_type="column">
-	<div class="elementor-widget-wrap elementor-element-populated">
-				<div class="elementor-element elementor-element-36358fb elementor-widget elementor-widget-image" data-id="36358fb" data-element_type="widget" data-widget_type="image.default">
-		<div class="elementor-widget-container">
-			<img loading="lazy" decoding="async" width="400" height="100" src="./images/kenkou_new.png" class="attachment-full size-full wp-image-824" alt="" srcset="" sizes="(max-width: 400px) 50vw, 80px" />												</div>
+			</div>
+	</div>
+	<div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-90c9dd3" data-id="90c9dd3" data-element_type="column">
+		<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-element elementor-element-36358fb elementor-widget elementor-widget-image" data-id="36358fb" data-element_type="widget" data-widget_type="image.default">
+			<div class="elementor-widget-container">
+				<img loading="lazy" decoding="async" width="400" height="100" src="./images/kenkou_new.png" class="attachment-full size-full wp-image-824" alt="" srcset="" sizes="(max-width: 400px) 50vw, 80px" />												</div>
 		</div>
 			</div>
 	</div>
@@ -294,9 +372,9 @@ var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":
 					<div class="elementor-element elementor-element-36358fb elementor-widget elementor-widget-image" data-id="36358fb" data-element_type="widget" data-widget_type="image.default">
 			<div class="elementor-widget-container">
 				<img loading="lazy" decoding="async" width="400" height="400" src="./images/warmreach.png" class="attachment-full wp-image-824" alt="" style="max-width: 50px; width: 50px; height: 50px;" />												</div>
-			</div>
-				</div>
 		</div>
+			</div>
+		</div> -->
 
 
 	<!-- <div class="elementor-column elementor-col-16 elementor-inner-column elementor-element elementor-element-bef4f9c" data-id="bef4f9c" data-element_type="column">
